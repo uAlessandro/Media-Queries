@@ -1,2 +1,33 @@
 @charset "UTF-8";
+*{
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+}
 
+html{
+    font-size: 1,5em ;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+h2{
+    text-align: center;
+    font-size: clamp(1rem,1.6vw, 3rem);
+}
+hr{
+    display: none;
+}
+menu{
+    display: none;
+    
+}
+#fonte{
+   
+    text-align: left;
+    font-size: 0.5rem;
+
+}
