@@ -3,14 +3,7 @@
 html,body{
     
     background-image: url("imagem/cev-portrait.jpg");
-    background-color: #233EFF;
-   
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position:center,left,right;
 
    
-}
-h1{
-    display: none;
 }
