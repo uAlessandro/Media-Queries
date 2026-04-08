@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+html,body{
+   background-color: #233EFF;
+    margin: 0;
+    padding: 0;
+    background-image: url("imagem/cev-landscape.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+   
+}
+h1{
+    display: none;
+}
