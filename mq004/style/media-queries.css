@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media print {
+    body{
+        background-image: url(/mq004/imagens/back-print.jpg);
+    }
+    main{
+        border-color: black;
+        background-color: rgba(0, 0, 0, 0.149);
+        font-size: 20px;
+        color: white;
+       
+    }
+    
+    #pc{ display: none;}
+    #celular{ display: none; }
+    #impressora{ display: inline-block;}
+    #tablet{ display: none;}
+    #tv{ display: none;}
+    
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   body{
+    background-image: url(/mq004/imagens/back-tablet.jpg);
+    
+    
+}
+    #pc{ display: none;}
+    #celular{ display: none; }
+    #impressora{ display: none;}
+    #tablet{ display: inline;}
+    #tv{ display: none;}
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    body{
+        background-image: url(/mq004/imagens/back-pc.jpg);
+    }
+    #pc{ display: inline;}
+    #celular{ display: none; }
+    #impressora{ display: none;}
+    #tablet{ display: none;}
+    #tv{ display: none;}
+    
+}
+@media screen and (min-width: 1441px) {
+    body{
+        background-image: url(/mq004/imagens/back-tv.jpg);
+    }
+    #pc{ display: none;}
+    #celular{ display: none; }
+    #impressora{ display: none;}
+    #tablet{ display: none;}
+    #tv{ display: inline;}
+}
